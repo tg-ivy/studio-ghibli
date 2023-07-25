@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+#sitelogo {
+    height: 300px;
+}
+
+.navbar {
+    display: flex;
+    background-color: #f0f3f6;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    
+}
+
+.navbar ul {
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding: 0px;
+}
+
+.content {
+
+}
+
+.underheader {
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 30px;
+}
+
+.imagecontent {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+#spiritedimg1, #spiritedimg2, #spiritedimg3 {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
